@@ -13,3 +13,5 @@ Done:
 To do:
 * completely defragment plots
 * user interface
+
+**ONLY RUN WITH FLAT MAPGEN AND NO CAVES OR TREES!**
