@@ -115,7 +115,7 @@ function uto.save(section,id)
 end
 
 minetest.register_on_generated(function(minp, maxp, blockseed)
-	if (minp.y < ground_level and maxp.y > ground_level) then
+	if (minp.y <= ground_level and maxp.y >= ground_level) then
 		local x = minp.x
 		while (x <= maxp.x) do
 			local z = minp.z
