@@ -14,8 +14,7 @@ local ground_level = 3
 function uto.init()
 	local city = uto.add_section("city",{})
 	local plot = city:create_plot("singleplayer")
-	plot.alloc = auto.quick_allocate(city,plot)
-	local path = 
+	plot.alloc = uto.quick_allocate(city,plot)
 	os.execute("mkdir \"" .. minetest.get_worldpath() .. "/utopia\"")
 end
 
